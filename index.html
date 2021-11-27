@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <input id="inpBtn" type="number" /> -->
+
+      <div class="form">
+        <h2>BMI Calculator</h2>
+        <hr />
+        <div class="weight">
+          <label for="">Weight : </label>
+          <input
+            type="number"
+            name=""
+            id="weight"
+            min="5"
+            placeholder="Weight"
+            required
+          />
+        </div>
+        <div class="height">
+          <label for="">Height : </label>
+          <input
+            type="number"
+            name=""
+            id="height"
+            min="5"
+            placeholder="Height"
+            required
+          />
+        </div>
+        <div id="submit">
+          <button id="sub-btn">Check BMI</button>
+        </div>
+        <div class="bmi">
+          <p class="bmi-txt">BMI : <span id="res"></span></p>
+        </div>
+        <div id="bmiD"></div>
+      </div>
+    </div>
+    <!-- ///////////  -->
+    <!-- SCRIPT  -->
+    <script src="./script.js"></script>
+  </body>
+</html>
